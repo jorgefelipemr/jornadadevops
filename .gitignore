@@ -1,0 +1,9 @@
+# Arquivos de "estado" local do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Pasta de "lock" do Terraform
+.terraform.lock.hcl
+
+# A pasta de PLUGINS (aqui está o culpado!)
+.terraform/
